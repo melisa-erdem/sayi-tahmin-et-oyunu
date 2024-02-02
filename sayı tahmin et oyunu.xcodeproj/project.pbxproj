@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF7C470C2B6D12F800B361D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C470B2B6D12F800B361D0 /* AppDelegate.swift */; };
+		BF7C470E2B6D12F800B361D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C470D2B6D12F800B361D0 /* SceneDelegate.swift */; };
+		BF7C47102B6D12F800B361D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C470F2B6D12F800B361D0 /* ViewController.swift */; };
+		BF7C47132B6D12F800B361D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7C47112B6D12F800B361D0 /* Main.storyboard */; };
+		BF7C47152B6D12FA00B361D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7C47142B6D12FA00B361D0 /* Assets.xcassets */; };
+		BF7C47182B6D12FA00B361D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7C47162B6D12FA00B361D0 /* LaunchScreen.storyboard */; };
+		BF7C47232B6D12FA00B361D0 /* say__tahmin_et_oyunuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C47222B6D12FA00B361D0 /* say__tahmin_et_oyunuTests.swift */; };
+		BF7C472D2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C472C2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITests.swift */; };
+		BF7C472F2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C472E2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITestsLaunchTests.swift */; };
+		BF7C473C2B6D137100B361D0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C473B2B6D137100B361D0 /* ViewController2.swift */; };
+		BF7C473E2B6D137E00B361D0 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C473D2B6D137E00B361D0 /* ViewController3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF7C471F2B6D12FA00B361D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7C47002B6D12F800B361D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF7C47072B6D12F800B361D0;
+			remoteInfo = "sayı tahmin et oyunu";
+		};
+		BF7C47292B6D12FA00B361D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF7C47002B6D12F800B361D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF7C47072B6D12F800B361D0;
+			remoteInfo = "sayı tahmin et oyunu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF7C47082B6D12F800B361D0 /* sayı tahmin et oyunu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sayı tahmin et oyunu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7C470B2B6D12F800B361D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF7C470D2B6D12F800B361D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF7C470F2B6D12F800B361D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF7C47122B6D12F800B361D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF7C47142B6D12FA00B361D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF7C47172B6D12FA00B361D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF7C47192B6D12FA00B361D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7C471E2B6D12FA00B361D0 /* sayı tahmin et oyunuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sayı tahmin et oyunuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7C47222B6D12FA00B361D0 /* say__tahmin_et_oyunuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = say__tahmin_et_oyunuTests.swift; sourceTree = "<group>"; };
+		BF7C47282B6D12FA00B361D0 /* sayı tahmin et oyunuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sayı tahmin et oyunuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7C472C2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = say__tahmin_et_oyunuUITests.swift; sourceTree = "<group>"; };
+		BF7C472E2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = say__tahmin_et_oyunuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF7C473B2B6D137100B361D0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		BF7C473D2B6D137E00B361D0 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF7C47052B6D12F800B361D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7C471B2B6D12FA00B361D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7C47252B6D12FA00B361D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF7C46FF2B6D12F800B361D0 = {
+			isa = PBXGroup;
+			children = (
+				BF7C470A2B6D12F800B361D0 /* sayı tahmin et oyunu */,
+				BF7C47212B6D12FA00B361D0 /* sayı tahmin et oyunuTests */,
+				BF7C472B2B6D12FA00B361D0 /* sayı tahmin et oyunuUITests */,
+				BF7C47092B6D12F800B361D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7C47092B6D12F800B361D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF7C47082B6D12F800B361D0 /* sayı tahmin et oyunu.app */,
+				BF7C471E2B6D12FA00B361D0 /* sayı tahmin et oyunuTests.xctest */,
+				BF7C47282B6D12FA00B361D0 /* sayı tahmin et oyunuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF7C470A2B6D12F800B361D0 /* sayı tahmin et oyunu */ = {
+			isa = PBXGroup;
+			children = (
+				BF7C470B2B6D12F800B361D0 /* AppDelegate.swift */,
+				BF7C470D2B6D12F800B361D0 /* SceneDelegate.swift */,
+				BF7C470F2B6D12F800B361D0 /* ViewController.swift */,
+				BF7C47112B6D12F800B361D0 /* Main.storyboard */,
+				BF7C47142B6D12FA00B361D0 /* Assets.xcassets */,
+				BF7C47162B6D12FA00B361D0 /* LaunchScreen.storyboard */,
+				BF7C47192B6D12FA00B361D0 /* Info.plist */,
+				BF7C473B2B6D137100B361D0 /* ViewController2.swift */,
+				BF7C473D2B6D137E00B361D0 /* ViewController3.swift */,
+			);
+			path = "sayı tahmin et oyunu";
+			sourceTree = "<group>";
+		};
+		BF7C47212B6D12FA00B361D0 /* sayı tahmin et oyunuTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7C47222B6D12FA00B361D0 /* say__tahmin_et_oyunuTests.swift */,
+			);
+			path = "sayı tahmin et oyunuTests";
+			sourceTree = "<group>";
+		};
+		BF7C472B2B6D12FA00B361D0 /* sayı tahmin et oyunuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7C472C2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITests.swift */,
+				BF7C472E2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITestsLaunchTests.swift */,
+			);
+			path = "sayı tahmin et oyunuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF7C47072B6D12F800B361D0 /* sayı tahmin et oyunu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7C47322B6D12FA00B361D0 /* Build configuration list for PBXNativeTarget "sayı tahmin et oyunu" */;
+			buildPhases = (
+				BF7C47042B6D12F800B361D0 /* Sources */,
+				BF7C47052B6D12F800B361D0 /* Frameworks */,
+				BF7C47062B6D12F800B361D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sayı tahmin et oyunu";
+			productName = "sayı tahmin et oyunu";
+			productReference = BF7C47082B6D12F800B361D0 /* sayı tahmin et oyunu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF7C471D2B6D12FA00B361D0 /* sayı tahmin et oyunuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7C47352B6D12FA00B361D0 /* Build configuration list for PBXNativeTarget "sayı tahmin et oyunuTests" */;
+			buildPhases = (
+				BF7C471A2B6D12FA00B361D0 /* Sources */,
+				BF7C471B2B6D12FA00B361D0 /* Frameworks */,
+				BF7C471C2B6D12FA00B361D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7C47202B6D12FA00B361D0 /* PBXTargetDependency */,
+			);
+			name = "sayı tahmin et oyunuTests";
+			productName = "sayı tahmin et oyunuTests";
+			productReference = BF7C471E2B6D12FA00B361D0 /* sayı tahmin et oyunuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF7C47272B6D12FA00B361D0 /* sayı tahmin et oyunuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7C47382B6D12FA00B361D0 /* Build configuration list for PBXNativeTarget "sayı tahmin et oyunuUITests" */;
+			buildPhases = (
+				BF7C47242B6D12FA00B361D0 /* Sources */,
+				BF7C47252B6D12FA00B361D0 /* Frameworks */,
+				BF7C47262B6D12FA00B361D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7C472A2B6D12FA00B361D0 /* PBXTargetDependency */,
+			);
+			name = "sayı tahmin et oyunuUITests";
+			productName = "sayı tahmin et oyunuUITests";
+			productReference = BF7C47282B6D12FA00B361D0 /* sayı tahmin et oyunuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7C47002B6D12F800B361D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BF7C47072B6D12F800B361D0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BF7C471D2B6D12FA00B361D0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BF7C47072B6D12F800B361D0;
+					};
+					BF7C47272B6D12FA00B361D0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BF7C47072B6D12F800B361D0;
+					};
+				};
+			};
+			buildConfigurationList = BF7C47032B6D12F800B361D0 /* Build configuration list for PBXProject "sayı tahmin et oyunu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF7C46FF2B6D12F800B361D0;
+			productRefGroup = BF7C47092B6D12F800B361D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF7C47072B6D12F800B361D0 /* sayı tahmin et oyunu */,
+				BF7C471D2B6D12FA00B361D0 /* sayı tahmin et oyunuTests */,
+				BF7C47272B6D12FA00B361D0 /* sayı tahmin et oyunuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF7C47062B6D12F800B361D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7C47182B6D12FA00B361D0 /* LaunchScreen.storyboard in Resources */,
+				BF7C47152B6D12FA00B361D0 /* Assets.xcassets in Resources */,
+				BF7C47132B6D12F800B361D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7C471C2B6D12FA00B361D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7C47262B6D12FA00B361D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF7C47042B6D12F800B361D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7C473E2B6D137E00B361D0 /* ViewController3.swift in Sources */,
+				BF7C47102B6D12F800B361D0 /* ViewController.swift in Sources */,
+				BF7C473C2B6D137100B361D0 /* ViewController2.swift in Sources */,
+				BF7C470C2B6D12F800B361D0 /* AppDelegate.swift in Sources */,
+				BF7C470E2B6D12F800B361D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7C471A2B6D12FA00B361D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7C47232B6D12FA00B361D0 /* say__tahmin_et_oyunuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7C47242B6D12FA00B361D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7C472D2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITests.swift in Sources */,
+				BF7C472F2B6D12FA00B361D0 /* say__tahmin_et_oyunuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF7C47202B6D12FA00B361D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF7C47072B6D12F800B361D0 /* sayı tahmin et oyunu */;
+			targetProxy = BF7C471F2B6D12FA00B361D0 /* PBXContainerItemProxy */;
+		};
+		BF7C472A2B6D12FA00B361D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF7C47072B6D12F800B361D0 /* sayı tahmin et oyunu */;
+			targetProxy = BF7C47292B6D12FA00B361D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF7C47112B6D12F800B361D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7C47122B6D12F800B361D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF7C47162B6D12FA00B361D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7C47172B6D12FA00B361D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF7C47302B6D12FA00B361D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF7C47312B6D12FA00B361D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF7C47332B6D12FA00B361D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sayı tahmin et oyunu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodeApps.say--tahmin-et-oyunu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF7C47342B6D12FA00B361D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sayı tahmin et oyunu/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodeApps.say--tahmin-et-oyunu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF7C47362B6D12FA00B361D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodeApps.say--tahmin-et-oyunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sayı tahmin et oyunu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sayı tahmin et oyunu";
+			};
+			name = Debug;
+		};
+		BF7C47372B6D12FA00B361D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodeApps.say--tahmin-et-oyunuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sayı tahmin et oyunu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sayı tahmin et oyunu";
+			};
+			name = Release;
+		};
+		BF7C47392B6D12FA00B361D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodeApps.say--tahmin-et-oyunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sayı tahmin et oyunu";
+			};
+			name = Debug;
+		};
+		BF7C473A2B6D12FA00B361D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xcodeApps.say--tahmin-et-oyunuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sayı tahmin et oyunu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF7C47032B6D12F800B361D0 /* Build configuration list for PBXProject "sayı tahmin et oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7C47302B6D12FA00B361D0 /* Debug */,
+				BF7C47312B6D12FA00B361D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7C47322B6D12FA00B361D0 /* Build configuration list for PBXNativeTarget "sayı tahmin et oyunu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7C47332B6D12FA00B361D0 /* Debug */,
+				BF7C47342B6D12FA00B361D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7C47352B6D12FA00B361D0 /* Build configuration list for PBXNativeTarget "sayı tahmin et oyunuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7C47362B6D12FA00B361D0 /* Debug */,
+				BF7C47372B6D12FA00B361D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7C47382B6D12FA00B361D0 /* Build configuration list for PBXNativeTarget "sayı tahmin et oyunuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7C47392B6D12FA00B361D0 /* Debug */,
+				BF7C473A2B6D12FA00B361D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF7C47002B6D12F800B361D0 /* Project object */;
+}
